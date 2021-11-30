@@ -1,0 +1,7 @@
+# Project exclude paths
+/cmake-build-debug/
+/Server/The.Dark.Knight.2008.Bdrip.Imax.mkv
+.idea/
+cmake-build-debug/
+CMakeFiles/
+log.*

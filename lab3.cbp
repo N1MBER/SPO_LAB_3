@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lab3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/n1mber/ITMO/SPO/Lab3"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/n1mber/ITMO/SPO/Lab3/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/n1mber/ITMO/SPO/Lab3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/n1mber/ITMO/SPO/Lab3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/n1mber/ITMO/SPO/Lab3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/n1mber/ITMO/SPO/Lab3"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/n1mber/ITMO/SPO/Lab3/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/n1mber/ITMO/SPO/Lab3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/n1mber/ITMO/SPO/Lab3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/n1mber/ITMO/SPO/Lab3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/n1mber/ITMO/SPO/Lab3"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/n1mber/ITMO/SPO/Lab3/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/n1mber/ITMO/SPO/Lab3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/n1mber/ITMO/SPO/Lab3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/n1mber/ITMO/SPO/Lab3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab3">
+				<Option output="/Users/n1mber/ITMO/SPO/Lab3/lab3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/n1mber/ITMO/SPO/Lab3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/n1mber/ITMO/SPO/Lab3/Makefile&quot;  VERBOSE=1 lab3"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/n1mber/ITMO/SPO/Lab3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/n1mber/ITMO/SPO/Lab3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/n1mber/ITMO/SPO/Lab3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab3/fast">
+				<Option output="/Users/n1mber/ITMO/SPO/Lab3/lab3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/n1mber/ITMO/SPO/Lab3"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j8 -f &quot;/Users/n1mber/ITMO/SPO/Lab3/Makefile&quot;  VERBOSE=1 lab3/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j8 -f &quot;/Users/n1mber/ITMO/SPO/Lab3/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j8 -f &quot;/Users/n1mber/ITMO/SPO/Lab3/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j8 -f &quot;/Users/n1mber/ITMO/SPO/Lab3/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/n1mber/ITMO/SPO/Lab3/Client/client.c">
+			<Option target="lab3"/>
+		</Unit>
+		<Unit filename="/Users/n1mber/ITMO/SPO/Lab3/Client/client.h">
+			<Option target="lab3"/>
+		</Unit>
+		<Unit filename="/Users/n1mber/ITMO/SPO/Lab3/Server/config_worker.c">
+			<Option target="lab3"/>
+		</Unit>
+		<Unit filename="/Users/n1mber/ITMO/SPO/Lab3/Server/config_worker.h">
+			<Option target="lab3"/>
+		</Unit>
+		<Unit filename="/Users/n1mber/ITMO/SPO/Lab3/Server/server.c">
+			<Option target="lab3"/>
+		</Unit>
+		<Unit filename="/Users/n1mber/ITMO/SPO/Lab3/Server/server.h">
+			<Option target="lab3"/>
+		</Unit>
+		<Unit filename="/Users/n1mber/ITMO/SPO/Lab3/main.c">
+			<Option target="lab3"/>
+		</Unit>
+		<Unit filename="/Users/n1mber/ITMO/SPO/Lab3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
